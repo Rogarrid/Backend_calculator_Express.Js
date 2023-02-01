@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calculator</title>
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- style css -->
+    <style media="screen">
+
+    #firstNumber{
+    margin-left: 40%;
+    }
+
+    #secondNumber{
+    margin-right: 40%;
+    }
+
+    .form-control{
+     width: 22rem;
+     background-color: #EEEEEE;
+     border-width: 1px;
+    border-color: black;
+    }
+
+    .signOperators, .col{
+	justify-content: center;
+	margin: 25vh auto 1.25rem;
+    }
+
+    .operators{
+    padding: 0.2rem;
+    width: 4rem;
+    height: 2.5rem;
+    }
+
+    #calculate{
+    margin-left: 45%;
+    }
+
+    </style>
+
+</head>
+<body>
+  <form action="/" method="post">
+    <div class="row">
+      <div class="col">
+        <input id="firstNumber" type="text" name="num1" class="form-control" placeholder="First Number">
+      </div>
+      <div class="signOperators">
+          <input type="text" class="operators" name="sign" placeholder="Sign">
+      </div>
+      <div class="col">
+        <input id="secondNumber" type="text" name="num2" class="form-control" placeholder="Second Number">
+      </div>
+    </div>
+	<button id="calculate" type="submit" class="btn btn-primary btn-lg">Calculate</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+body{
+	background-image:url("img/calculator.jpg");
+	background-size: cover;
+  }
+
+#firstNumber{
+  margin-left: 40%;
+}
+
+#secondNumber{
+  margin-right: 40%;
+}
+
+.form-control{
+  width: 22rem;
+  background-color: #EEEEEE;
+  border-width: 1px;
+  border-color: black;
+}
+
+.signOperators, .col{
+	justify-content: center;
+	margin: 25vh auto 1.25rem;
+  }
+
+#operators{
+  padding: 0.2rem;
+  width: 4rem;
+  height: 2.5rem;
+}
+
+#calculate{
+  margin-left: 45%;
+}
